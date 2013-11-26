@@ -142,7 +142,7 @@ public class RunSeleniumTests {
 	      fail(verificationErrorString);
 	    }
 	  }
-	  /*
+	  
 	  @Test
 	  public void testExpandables() throws Exception {
 		verificationErrors = new StringBuffer();
@@ -327,8 +327,8 @@ public class RunSeleniumTests {
 	    if (!"".equals(verificationErrorString)) {
 	      fail(verificationErrorString);
 	    }
-	  }*/
-	  
+	  }
+	
 	  private boolean isElementPresent(By by) {
 		    try {
 		      driver.findElement(by);
